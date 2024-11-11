@@ -31,11 +31,12 @@ body::before {
 .headd {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
-    padding-bottom: 200px;
+    
     color: white;
     position: relative;
+    
   
 }
 
@@ -70,13 +71,12 @@ li, a {
 
 .flexcontainer {
     display: flex;
-    justify-items:center;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    padding: 10px;
-    padding-bottom: 500px;
-    gap: 20;
-    flex-basis: 200px;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-bottom: 200px;
 }
 
 .img {
