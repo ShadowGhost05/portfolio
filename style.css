@@ -33,6 +33,9 @@ li , a {
     padding-bottom: 10px; 
     
 }
+a:hover{
+    font-size: large;
+}
 ul {
     list-style: none;
     display: flex;
@@ -46,6 +49,9 @@ ul {
     background-color: transparent;
     color: white;
     padding: 5px;
+}
+.button:hover {
+    font-size: large;
 }
 .main{
     text-align: center;
